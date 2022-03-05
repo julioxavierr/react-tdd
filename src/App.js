@@ -1,5 +1,9 @@
-function App() {
-  return <div></div>;
-}
+import { NewMessageForm } from "./NewMessageForm";
 
-export default App;
+export function App() {
+  return (
+    <div>
+      <NewMessageForm />
+    </div>
+  );
+}
