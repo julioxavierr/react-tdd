@@ -1,9 +1,11 @@
 import { NewMessageForm } from "./NewMessageForm";
 
 export function App() {
+  const handleSend = (newMessage) => {};
+
   return (
     <div>
-      <NewMessageForm />
+      <NewMessageForm onSend={handleSend} />
     </div>
   );
 }
